@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "movie-recommendation"
+version = "0.1.0"
+description = ""
+authors = ["Harish <dev.harish3124@gmail.com>"]
+readme = "README.md"
+packages = [{include = "movie_recommendation"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.0.2"
+scikit-learn = "^1.2.2"
+numpy = "^1.25.0"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
